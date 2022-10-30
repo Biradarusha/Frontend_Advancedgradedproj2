@@ -5,7 +5,7 @@ function login() {
     window.localStorage.setItem('username', 'username');
     window.localStorage.setItem('password', 'password');
     // Will be an API call in production
-    if(username === username && password === password) {
+    if(username === 'username' && password === 'password') {
         window.location = 'resume.html';
     } else {
         document.getElementById('invalid-login').style.display = 'block';
